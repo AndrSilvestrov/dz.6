@@ -1,0 +1,85 @@
+.logo-img {
+  height: 50px;
+  width: 65px;
+  display: inline-block;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  display: inline-block;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+.header-col {
+  display: inline-block;
+}
+.header-1 {
+  border: solid;
+  border-width: 2px;
+  border-color: gray;
+}
+
+.header-col-right {
+  position: relative;
+  left: 1045px;
+}
+.header-col-center {
+  position: relative;
+  left: 580px;
+}
+
+.circle {
+  background-color: cadetblue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-top: 250px;
+  margin-left: 325px;
+  position: relative;
+}
+.circle-2 {
+  left: 400px;
+}
+
+.circle-small {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: absolute;
+}
+
+.circle-small-1 {
+  left: 5px;
+  top: 25px;
+}
+
+.circle-small-2 {
+  right: 0px;
+  bottom: 0px;
+}
+
+.circle-small-3 {
+  top: -40px;
+  left: 110px;
+}
+
+.circle-2 .circle-small-1 {
+  left: 200px;
+  top: 0px;
+}
+
+.circle-2 .circle-small-2 {
+  bottom: 200px;
+}
+
+.circle-2 .circle-small-3 {
+  top: 0px;
+  left: 160px;
+}
